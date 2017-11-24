@@ -16,10 +16,19 @@ weekly$date <- as.Date(weekly$date)
 summary(monthly)
 summary(weekly)
 
+# Plot line graph
+plot(monthly$date, monthly$sp500, type="l")
+plot(weekly$date, weekly$sp500, type="l", col="red")
+
+
 # calculate monthly returns
 # (take difference of logs)
+# We really should work with excess returns, 
+# but I will skip this step in this example.
 mret_sp500 <- diff(ts(log(monthly$sp500)))
 mret_msft <- diff(ts(log(monthly$msft)))
+
+plot(mret_sp500, mret_msft, col="red")
 
 # estimate linear model, monthly
 monthly_reg_msft <- lm(mret_msft~mret_sp500)
