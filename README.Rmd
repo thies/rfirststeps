@@ -1,12 +1,4 @@
----
-title: "A few first steps in R"
-output: pdf_document
-
-header-includes:
-  - \hypersetup{colorlinks=true,
-            allbordercolors={0 0 0},
-            pdfborderstyle={/S/U/W 1}}
----
+# "A few first steps in R"
 
 Thies Lindenthal (htl24@cam.ac.uk)
 
