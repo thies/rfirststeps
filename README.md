@@ -77,3 +77,8 @@ This document has been written in R Markdown. Check it out here: [R Markdown](ht
 5. Make backups regularly, keep distinct versions of your work.
 + Versions can just be copies of your "code" folder (quick and dirty).
 + If you work in groups, versioning solutions like *git* and platforms like [Github](https://github.com) might be a good idea.
+
+
+
+## Example code
+[index estimation, example](index_sample_code.R)
