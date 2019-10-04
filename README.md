@@ -1,4 +1,4 @@
-# "A few first steps in R"
+# A few first steps in R
 
 Thies Lindenthal (htl24@cam.ac.uk)
 
@@ -78,7 +78,17 @@ This document has been written in R Markdown. Check it out here: [R Markdown](ht
 + Versions can just be copies of your "code" folder (quick and dirty).
 + If you work in groups, versioning solutions like *git* and platforms like [Github](https://github.com) might be a good idea.
 
+## A proper introduction
+[Data Science in R](https://r4ds.had.co.nz/index.html)
++ [Introduction](https://r4ds.had.co.nz/explore-intro.html)
++ [Coding basics](https://r4ds.had.co.nz/workflow-basics.html#coding-basics)
++ [Functions](https://r4ds.had.co.nz/workflow-basics.html#calling-functions)
 
+### Fora/Q&A
+[StackWxchange](https://www.stackexchange.com)
+
+### Really good!
+If I had to start again, this would be a brilliant base: [Grant McDermott: Data Science for Economists](https://github.com/uo-ec607/lectures)
 
 ## Example code
 [index estimation, example](index_sample_code.R)
