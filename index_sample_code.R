@@ -19,6 +19,14 @@ temp <- tempfile()
 download.file("https://www.dropbox.com/s/hzrxtl4j3mgqfju/Cambridge.csv.gz?dl=1", temp)
 # load as data frame
 sales <- read.csv(gzfile(temp), as.is=TRUE, header=FALSE)
+
+# Do the following, in case the three lines above do not work (often problematic on Windows machines)
+# 1. download this file: https://www.dropbox.com/s/hzrxtl4j3mgqfju/Cambridge.csv.gz?dl=1
+# 2. unzip it
+# 3. load it manually through user interface: File -> Import Dataset -> From Text (base)
+# make sure to set the name (input top left) to "sales".
+# You should be good to continue like anybody else.
+
 # add meaningful column labels
 colnames(sales) <- c("id","price","date","postcode","propertytype","new","estatetype","paon","saon","street","locality","town","district","county","PPDcategory","recordstatus")
 
