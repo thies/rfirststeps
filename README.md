@@ -85,7 +85,7 @@ This document has been written in R Markdown. Check it out here: [R Markdown](ht
 + [Functions](https://r4ds.had.co.nz/workflow-basics.html#calling-functions)
 
 ### Fora/Q&A
-[StackWxchange](https://www.stackexchange.com)
+[StackExchange](https://www.stackexchange.com)
 
 ### Really good!
 If I had to start again, this would be a brilliant base: [Grant McDermott: Data Science for Economists](https://github.com/uo-ec607/lectures)
